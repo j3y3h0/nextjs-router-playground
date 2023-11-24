@@ -9,7 +9,12 @@
 
 앱 라우터는 기존의 pages 디렉토리와 함께 증분 적용이 가능합니다. Next.js 13으로 업그레이드할 때 앱 라우터를 사용할 필요는 없지만, 더 적은 JavaScript를 배포하면서 복잡한 인터페이스를 구축하기 위한 기반을 마련하고 있습니다.
 
-## Running Locally
+## Settings
+
+#### Node.js < 18  
+현재 Node.js 18 이상 버전에서 `npm run dev` 실행 시  
+ERR_OSSL_EVP_UNSUPPORTED 이슈가 있습니다.  
+`.nvmrc` 에 기재된 Node.js 버전 사용을 권고합니다.  
 
 1. dependencies 설치:
 
